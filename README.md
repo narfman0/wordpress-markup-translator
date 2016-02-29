@@ -1,3 +1,5 @@
+WARNING: WIP, possibly not using this at all :)
+
 Wordpress-shortcode-translator
 ==============================
 
