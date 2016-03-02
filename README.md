@@ -16,16 +16,14 @@ Usage
 
 If you have content within certain elements in your html, do something like the following:
 
-    var regex = /\[(\S+)(.*?)\]/g;
     $(document).ready(function(){
         $('.story').each(function(i) {
             this.innerHTML = wordpressShortcodeTranslator.translate(this.innerHTML);
         });
     });
 
-The regex pulls out anything matching the form [shortcode ...], then iteratively replaces each instance
-with the proper markup respective to that vendor. Note: twitter widget js and any vendor necessary items
-are loaded as necessary.
+.story markup is iteratively replaced with translated markup respective to the shortcode vendor.
+Note: twitter widget js and any vendor necessary items are loaded as necessary.
 
 License
 -------
