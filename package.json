@@ -1,6 +1,6 @@
 {
   "name": "wordpress-shortcode-translator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Translate shortcodes to proper markup",
   "files": ["dist"],
   "main": "dist/index.js",
