@@ -27,7 +27,7 @@ function WordpressShortcodeTranslator() {
                     var idRegex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i;
                     var youtubeId = idRegex.exec(attrs)[1];
                     return '<iframe src="http://www.youtube.com/embed/' + youtubeId +
-                        '" type="text/html" width="640" height="390" frameborder="0"></iframe>';
+                        '" type="text/html" width="100%" height="390" frameborder="0"></iframe>';
                 case 'twitter-timeline':
                     var id = /id=(\S+)/.exec(attrs)[1];
                     var username = /username=(\S+)/.exec(attrs)[1];
