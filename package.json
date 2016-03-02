@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Translate shortcodes to proper markup",
   "files": ["dist"],
-  "main": "dist/pubsubcutioner.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha test/*"
   },
@@ -12,8 +12,8 @@
     "url": "http://www.github.com/narfman0/wordpress-shortcode-translator"
   },
   "keywords": [
-    "event",
-    "pubsub"
+    "shortcode",
+    "wordpress"
   ],
   "author": "Jon Robison <narfman0@gmail.com> (http://www.github.com/narfman0)",
   "license": "MIT",
